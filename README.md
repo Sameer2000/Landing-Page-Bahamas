@@ -1,5 +1,5 @@
 # Landing-Page-Bahamas
 
-[]!(images/screenshot.jpg)
+![](images/screenshot.jpg)
 
 This is a landing page made using HTML & CSS.
