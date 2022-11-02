@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Lato&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+
+img{
+    height: auto;
+    min-width: 90%;
+}
+
+#content{
+    height: 100%;
+    width: 30%;
+    z-index: 100;
+    background: linear-gradient(90deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%);
+    position: absolute;
+    left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#content h1,p,buttons{
+    margin: 20px 0;
+}
+
+#content h1{
+    font-family: 'Bad Script', cursive;
+    color: #0096F0;
+}
+
+#content p{
+    font-family: 'Lato', sans-serif;
+    color: rgba(0, 0, 0, 0.79);
+}
+
+button{
+    width: 10rem;
+    height: 3rem;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 2px;
+}
+
+.dark{
+    background-color: black;
+    color: white;
+}
+
+.light{
+    background-color: rgba(255, 255, 255, 0.203);
+    color: black;
+    border: 1px solid black;
+}
+
